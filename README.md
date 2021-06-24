@@ -1,2 +1,2 @@
-# Smart-Methods
+# Smart Methods
 Summer training 

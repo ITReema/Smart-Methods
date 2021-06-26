@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Robotic Arm</title>
+	<meta charset="utf-8">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<form method="POST" action="db_insert.php">
+			<h2>Robot Arm Control</h2>
+			<div class="slider">
+				<input name="motor_1" class="slider_range" type="range" value="0" min="0" max="90">
+  				<span class="slider_value">0</span>
+			</div>
+			<div class="slider">
+				<input name="motor_2" class="slider_range" type="range" value="0" min="0" max="90">
+  				<span class="slider_value">0</span>
+			</div>
+			<div class="slider">
+				<input name="motor_3" class="slider_range" type="range" value="0" min="0" max="90">
+  				<span class="slider_value">0</span>
+			</div>
+			<div class="slider">
+				<input name="motor_4" class="slider_range" type="range" value="0" min="0" max="90">
+  				<span class="slider_value">0</span>
+			</div>
+			<div class="slider">
+				<input name="motor_5" class="slider_range" type="range" value="0" min="0" max="90">
+  				<span class="slider_value">0</span>
+			</div>
+			<div class="slider">
+				<input name="motor_6" class="slider_range" type="range" value="0" min="0" max="90">
+  				<span class="slider_value">0</span>
+			</div>
+			<div class="row justify-content-md-center">
+    			<div class="col col-lg-2">
+      				<button class="btn" formaction="db_insert.php">Save</button>
+      			</div>
+      			<div class="col col-lg-2">
+      				<button class="btn" formaction="db_show.php">Run</button>
+      			</div>
+      		</div>
+      	</form>
+    </div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>

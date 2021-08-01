@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Robot Control Panel</title>
+	<meta charset="utf-8">
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<form action="control.php" method="get">
+			<h2>Robot Control Panel</h2>
+			<nav>
+				<button class="button forward" title="Top move" type="submit" value="forward" name="forward"></button>
+				<button class="button right" title="Right move" type="submit" value="right" name="right"></button>
+				<button class="button left" title="Left move" type="submit" value="left" name="left"></button>
+				<button class="button backward" title="Bottom move" type="submit" value="backward" name="backward"></button>
+				<button class="stop" title="Stop" type="submit" value="stop" name="stop"></button>
+			</nav>
+      	</form>
+    </div>
+</body>
+</html>

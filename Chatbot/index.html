@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Robot Control Panel</title>
+</head>
+<body>
+	<div class="wrap">
+		<h1>Robot Control Panel</h1>
+  		<a class="button" href="Chatbot/RobotArmControl/index.html">Arm Control</a>
+  		<a class="button" href="Chatbot/RobotControlPanel/index.html">Move Control</a>
+	</div>
+
+<script>
+  window.watsonAssistantChatOptions = {
+      integrationID: "ee4f3aa8-102a-4e11-8a01-d1be29c712ba", // The ID of this integration.
+      region: "us-east", // The region your integration is hosted in.
+      serviceInstanceID: "3f82dd2d-25ae-4713-b111-b0468cf13eb2", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+    document.head.appendChild(t);
+  });
+</script>
+</body>
+</html>

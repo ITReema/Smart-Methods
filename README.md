@@ -8,3 +8,5 @@ Design robot arm control with Six motors using php, and MySQL.
 Design Control Panel to move the robot.
 * **Task 3:** [Chatbot](https://github.com/ITReema/Smart-Methods/tree/main/Chatbot)</br>
 Build IBM Watson assistant chatbot + Merge robot Control Panel
+* **Task 4:** [Speech To Text]()</br>
+Live Speech To Text & Text to speech with IBM Watson using Python
